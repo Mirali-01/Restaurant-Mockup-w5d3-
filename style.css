@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.dropbtn {
+    /* border: solid green; */
+    font-size: 35px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 73px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 9px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.heroContainer {
+    /* border: solid black; */
+    height: 110vh;
+    background-image: url("https://static.wixstatic.com/media/faf7f6_f2f55307a0c446f98aa069b750cd0b16~mv2.jpg/v1/fill/w_2500,h_1666,al_c/faf7f6_f2f55307a0c446f98aa069b750cd0b16~mv2.jpg");
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.navbar {
+    /* border: solid mintcream; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.element1 {
+    /* border: solid green; */
+    height: 8vh;
+    width: 30%;
+    /* font-size: 30px; */
+}
+
+.element2 {
+    /* border: solid green; */
+    height: 8vh;
+    width: 30%;
+}
+
+.element3 {
+    /* border: solid green; */
+    height: 8vh;
+    width: 30%;
+    font-size: 30px;
+}
+
+.about {
+    /* border: solid brown; */
+    background-color: wheat;
+    height: 60vh;
+    font-size: 28px;
+    padding-top: 3vh;
+}
+
+.aboutBox {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+h1 {
+    color: #df6137;
+}
+
+.heroTitle{
+    color: white;
+}
+
+.text {
+    color: #7294a2;
+}
+
+.foodGalleryContainer {
+    border: solid purple;
+    height: 62.5vh;
+    background-color: #ebaf40;
+    /* background-image: url('https://new-media.dhakatribune.com/en/uploads/2022/06/22/indian-food1.jpeg');
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed; */
+    overflow: hidden;
+}
+
+.topPics {
+    /* border: solid magenta; */
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.top1C {
+    /* border: solid forestgreen; */
+    height: 100%;
+}
+
+.top2C {
+    /* border: solid forestgreen; */
+    height: 100%;
+}
+
+.top1, .top2 {
+    /* border: solid black; */
+    height: 100%;
+    margin: 5px;
+}
+
+.bottomPics {
+    /* border: solid magenta; */
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.bottom1C {
+    /* border: solid forestgreen; */
+    height: 100%;
+}
+
+
+.bottom2C {
+    /* border: solid forestgreen; */
+    height: 100%;
+}
+
+.bottom1, .bottom2 {
+    /* border: solid black; */
+    height: 100%;
+    margin: 5px;
+}
+
+.menuContainer {
+    border: solid green;
+    height: 60vh;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/637a9206c87a903b102afc3f/b73f6d4f-acce-4af2-8426-bc9fed81ec42/MING+MENU.jpg?format=2500w");
+    background-size: cover;
+}
+
+.menuTitle{
+    margin-top: 5vh;
+}
+
+.btnContainer {
+    /* border: solid black; */
+    margin-top: 5vh;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: orangered;
+    background-color: rgba(202, 194, 194, 0.28);
+}
+
+button {
+    height: 8vh;
+    width: 12vh;
+}
+
+.menuText {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color: darkred;
+    text-align: center;
+}
